@@ -1,0 +1,214 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.signup-container, .login-container {
+    width: 350px;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.signup-container h2, .login-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+a {
+    color: #4c63d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #3b4cad;
+}
+
+p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+.signup-container, .login-container {
+    width: 350px;
+    max-width: 100%;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4c63d2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3b4cad;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+.chat-container {
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #3b4cad;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.user-list .user {
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #5c72e2;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-list .user:hover {
+    background-color: #4b5bbd;
+}
+
+.chat-window {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.chat-header {
+    background-color: #5c72e2;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.chat-box {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f4f7fa;
+    border-radius: 8px;
+}
+
+.input-container {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    background-color: #f4f7fa;
+    display: flex;
+    border-radius: 0 0 8px 8px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.input-container button {
+    margin-left: 10px;
+    background-color: #4c63d2;
+}
+
+.message {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message .username {
+    font-weight: bold;
+}
+
+.message .timestamp {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.message .text {
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #667eea;
+    color: white;
+    max-width: 60%;
+    align-self: flex-start;
+}
+
+.message.me .text {
+    background-color: #42b883;
+    align-self: flex-end;
+}
+.hidden {
+     display: none;
+ }
